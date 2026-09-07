@@ -1,3 +1,5 @@
+import sys
+
 class DataBase:
     lst_data = []
     FIELDS = ('id', 'name', 'old', 'salary')
@@ -14,3 +16,11 @@ class DataBase:
         if b >= len(self.lst_data):
             b = len(self.lst_data) - 1
         return self.lst_data[a:b+1]
+
+lst_in = list(map(str.strip, sys.stdin.readlines()))
+
+db = DataBase()
+db.insert(lst_in)
+
+result = db.select(0, len(lst_in) - 1)
+print(str(result).replace(' ', ''))
