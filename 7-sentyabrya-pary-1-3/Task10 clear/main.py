@@ -4,11 +4,10 @@ class Graph:
         self.data = data
 
     def draw(self):
-        outcome = []
-        for number in self.data:
-            if self.LIMIT_Y[0] <= number <= self.LIMIT_Y[1]:
-                outcome.append(str(number))
-        print(" ".join(outcome))
+        for i in self.data:
+            if Graph.LIMIT_Y[0] <= i <= Graph.LIMIT_Y[1]:
+                print(i, end=' ')
+        print()
 
 graph_1 = Graph()
 graph_1.set_data([10, -5, 100, 20, 0, 80, 45, 2, 5, 7])

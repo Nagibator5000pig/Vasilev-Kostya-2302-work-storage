@@ -10,11 +10,15 @@ class StreamData:
 
 class StreamReader:
     FIELDS = ('id', 'title', 'pages')
+
     def readlines(self):
-        lst_in = list(map(str.strip, sys.stdin.readlines()))  # считывание списка строк из входного потока
+        lst_in = list(map(str.strip, sys.stdin.readlines()))
         sd = StreamData()
         res = sd.create(self.FIELDS, lst_in)
         return sd, res
 
 sr = StreamReader()
 data, result = sr.readlines()
+
+print('Результат:', result)
+print('Data:', data.__dict__)
