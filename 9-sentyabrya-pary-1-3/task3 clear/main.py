@@ -3,11 +3,13 @@ class MediaPlayer:
         self.filename = file
 
     def play(self):
-        print(f"Воспроизведение {self.filename}")
+        print(f'Воспроизведение {self.filename}')
 
 media1 = MediaPlayer()
+media1.open('media1.mp3')
 media2 = MediaPlayer()
-media1.open("A4_Kids.mp3")
-media2.open("Гимн.mp3")
+media2.open('media2.mp3')
+
 media1.play()
 media2.play()
+
