@@ -1,0 +1,275 @@
+2026-10-24 12:08:47 [INFO] http_app: Sending GET http://example.com/
+2026-10-24 12:11:40 [INFO] http_app: Sending GET http://example.com/
+2026-10-24 12:15:17 [INFO] http_app: Starting server on port 8080
+2026-10-24 12:15:17 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 12:15:20 [INFO] http_app: GET / -> 200
+2026-10-24 12:15:21 [INFO] http_app: GET /favicon.ico -> 404
+2026-10-24 12:15:21 [INFO] http_app: GET /favicon.ico -> 404
+2026-10-24 12:15:29 [INFO] http_app: GET / -> 200
+2026-10-24 12:15:36 [INFO] http_app: GET / -> 200
+2026-10-24 12:16:13 [INFO] http_app: Stopping server
+2026-10-24 12:16:13 [INFO] http_app: Server stopping
+2026-10-24 12:16:14 [INFO] http_app: Starting server on port 8080
+2026-10-24 12:16:14 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 12:16:24 [INFO] http_app: Sending GET http://example.com/
+2026-10-24 12:16:27 [INFO] http_app: GET / -> 200
+2026-10-24 12:16:39 [INFO] http_app: GET / -> 200
+2026-10-24 12:17:24 [INFO] http_app: Server stopping
+2026-10-24 12:17:43 [INFO] http_app: Starting server on port 8080
+2026-10-24 12:17:43 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 12:17:48 [INFO] http_app: GET / -> 200
+2026-10-24 12:18:11 [INFO] http_app: GET / -> 200
+2026-10-24 12:20:18 [INFO] http_app: Starting server on port 8080
+2026-10-24 12:20:18 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 12:20:19 [INFO] http_app: GET / -> 200
+2026-10-24 12:20:32 [INFO] http_app: Server stopping
+2026-10-24 13:30:34 [INFO] http_app: Starting server on port 8080
+2026-10-24 13:30:34 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 13:30:58 [INFO] http_app: GET / -> 200
+2026-10-24 13:31:47 [INFO] http_app: Server stopping
+2026-10-24 13:32:17 [INFO] http_app: Starting server on port 8080
+2026-10-24 13:32:17 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 13:32:21 [INFO] http_app: POST /echo -> 200
+2026-10-24 13:36:02 [INFO] http_app: GET /status/418 -> 418
+2026-10-24 13:36:29 [INFO] http_app: Sending GET http://localhost:8080/status/418
+2026-10-24 13:36:29 [INFO] http_app: GET /status/418 -> 418
+2026-10-24 13:36:29 [ERROR] http_app: Request failed: HttpError: HTTP 418 I'm a teapot
+2026-10-24 13:38:52 [INFO] http_app: GET /nonexistent -> 404
+2026-10-24 13:39:02 [INFO] http_app: Sending GET http://localhost:8080/nonexistent
+2026-10-24 13:39:02 [INFO] http_app: GET /nonexistent -> 404
+2026-10-24 13:39:02 [ERROR] http_app: Request failed: HttpError: HTTP 404 Not Found
+2026-10-24 13:39:39 [INFO] http_app: Sending GET http://localhost:8080/nonexistent
+2026-10-24 13:39:39 [INFO] http_app: GET /nonexistent -> 404
+2026-10-24 13:39:39 [ERROR] http_app: Request failed: HttpError: HTTP 404 Not Found
+2026-10-24 13:41:34 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:34 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:35 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:35 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:35 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:35 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:35 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:41:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:36 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 13:47:37 [INFO] http_app: GET / -> 200
+2026-10-24 14:04:55 [INFO] http_app: Sending GET http://example.com/
+2026-10-24 14:05:38 [INFO] http_app: Sending GET http://github.com/
+2026-10-24 14:06:08 [INFO] http_app: Starting server on port 8080
+2026-10-24 14:06:08 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 14:06:12 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-24 14:06:12 [INFO] http_app: GET /time -> 200
+2026-10-24 14:07:59 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-24 14:08:01 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:8080: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-24 14:08:04 [INFO] http_app: Starting server on port 8080
+2026-10-24 14:08:04 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-24 14:08:06 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-24 14:08:06 [INFO] http_app: GET /time -> 200
+2026-10-25 17:56:26 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-25 17:56:28 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:8080: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-25 17:56:36 [INFO] http_app: Starting server on port 8080
+2026-10-25 17:56:36 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-25 17:56:37 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-25 17:56:37 [INFO] http_app: GET /time -> 200
+2026-10-25 17:57:23 [INFO] http_app: Sending GET http://info.cern.ch/
+2026-10-25 17:59:27 [INFO] http_app: Sending GET https://www.youtube.com/watch?v=RP-Y8ixLZGM&list=RDRP-Y8ixLZGM&start_radio=1
+2026-10-25 18:35:38 [INFO] http_app: Server stopping
+2026-10-25 23:00:04 [INFO] http_app: Sending GET 
+2026-10-25 23:00:04 [ERROR] http_app: Request failed: ParseError: Invalid URL: 
+2026-10-25 23:00:14 [INFO] http_app: Sending GET http://localhost:8080/headers
+2026-10-25 23:00:16 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:8080: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-25 23:00:20 [INFO] http_app: Starting server on port 8080
+2026-10-25 23:00:20 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-25 23:00:24 [INFO] http_app: Sending GET http://localhost:8080/headers
+2026-10-25 23:00:24 [INFO] http_app: GET /headers -> 200
+2026-10-25 23:00:30 [INFO] http_app: Sending GET http://localhost:808/headers
+2026-10-25 23:00:32 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:808: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-25 23:00:40 [INFO] http_app: Stopping server
+2026-10-25 23:00:40 [INFO] http_app: Server stopping
+2026-10-25 23:00:40 [INFO] http_app: Starting server on port 808
+2026-10-25 23:00:40 [INFO] http_app: Server started on 0.0.0.0:808
+2026-10-25 23:00:43 [INFO] http_app: Sending GET http://localhost:808/headers
+2026-10-25 23:00:43 [INFO] http_app: GET /headers -> 200
+2026-10-25 23:00:49 [INFO] http_app: Stopping server
+2026-10-25 23:00:49 [INFO] http_app: Server stopping
+2026-10-25 23:00:50 [INFO] http_app: Starting server on port 8080
+2026-10-25 23:00:50 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-25 23:01:06 [INFO] http_app: Sending GET http://localhost:808/headers
+2026-10-25 23:01:09 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:808: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-25 23:01:13 [INFO] http_app: Sending GET http://localhost:8080/headers
+2026-10-25 23:01:13 [INFO] http_app: GET /headers -> 200
+2026-10-25 23:02:43 [INFO] http_app: Sending GET http://headers
+2026-10-25 23:02:46 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to headers:80: [Errno 11001] getaddrinfo failed
+2026-10-25 23:05:23 [INFO] http_app: Stopping server
+2026-10-25 23:05:23 [INFO] http_app: Server stopping
+2026-10-25 23:05:32 [INFO] http_app: Starting server on port 8080
+2026-10-25 23:05:32 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-25 23:08:28 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-25 23:08:28 [INFO] http_app: GET /time -> 200
+2026-10-25 23:10:11 [INFO] http_app: Sending GET http://localhost:8080
+2026-10-25 23:10:11 [INFO] http_app: GET / -> 200
+2026-10-25 23:10:26 [INFO] http_app: Stopping server
+2026-10-25 23:10:26 [INFO] http_app: Server stopping
+2026-10-25 23:10:40 [INFO] http_app: Starting server on port 8080
+2026-10-25 23:10:40 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-25 23:10:42 [INFO] http_app: GET / -> 200
+2026-10-25 23:10:42 [INFO] http_app: GET /favicon.ico -> 404
+2026-10-25 23:10:42 [INFO] http_app: GET /favicon.ico -> 404
+2026-10-25 23:12:19 [INFO] http_app: Sending GET http://localhost:8080
+2026-10-25 23:12:19 [INFO] http_app: GET / -> 200
+2026-10-25 23:13:25 [INFO] http_app: Sending GET http://example.com/
+2026-10-25 23:21:10 [INFO] http_app: Sending GET http://localhost:8080/headers
+2026-10-25 23:21:10 [INFO] http_app: GET /headers -> 200
+2026-10-25 23:22:41 [INFO] http_app: Sending POST http://localhost:8080
+2026-10-25 23:22:41 [INFO] http_app: POST / -> 404
+2026-10-25 23:22:41 [ERROR] http_app: Request failed: HttpError: HTTP 404 Not Found
+2026-10-25 23:22:49 [INFO] http_app: Sending POST http://localhost:8080
+2026-10-25 23:22:49 [INFO] http_app: POST / -> 404
+2026-10-25 23:22:49 [ERROR] http_app: Request failed: HttpError: HTTP 404 Not Found
+2026-10-25 23:22:55 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-25 23:22:55 [INFO] http_app: POST /echo -> 200
+2026-10-25 23:23:01 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-25 23:23:01 [INFO] http_app: POST /echo -> 200
+2026-10-25 23:25:49 [INFO] http_app: Sending GET http://localhost:8080/echo
+2026-10-25 23:25:49 [INFO] http_app: GET /echo -> 404
+2026-10-25 23:25:49 [ERROR] http_app: Request failed: HttpError: HTTP 404 Not Found
+2026-10-25 23:26:09 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-25 23:26:09 [INFO] http_app: POST /echo -> 200
+2026-10-25 23:26:20 [INFO] http_app: Sending GET http://localhost:8080
+2026-10-25 23:26:20 [INFO] http_app: GET / -> 200
+2026-10-25 23:26:26 [INFO] http_app: Sending GET http://localhost:8080
+2026-10-25 23:26:26 [INFO] http_app: GET / -> 200
+2026-10-25 23:30:05 [INFO] http_app: Sending GET http://localhost:8080
+2026-10-25 23:30:05 [INFO] http_app: GET / -> 200
+2026-10-25 23:31:44 [INFO] http_app: GET / -> 200
+2026-10-25 23:31:50 [INFO] http_app: GET /time -> 200
+2026-10-25 23:32:00 [INFO] http_app: GET / -> 200
+2026-10-25 23:34:51 [INFO] http_app: Sending GET http://youtube.com/
+2026-10-25 23:37:26 [INFO] http_app: GET /favicon.ico -> 404
+2026-10-25 23:37:32 [INFO] http_app: Server stopping
+2026-10-26 12:01:03 [INFO] http_app: Sending GET http://localhost:8080/
+2026-10-26 12:01:05 [ERROR] http_app: Request failed: ConnectionError: Failed to connect to localhost:8080: [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
+2026-10-26 12:01:07 [INFO] http_app: Starting server on port 8080
+2026-10-26 12:01:07 [INFO] http_app: Server started on 0.0.0.0:8080
+2026-10-26 12:01:11 [INFO] http_app: Sending GET http://localhost:8080/
+2026-10-26 12:01:11 [INFO] http_app: GET / -> 200
+2026-10-26 12:06:28 [INFO] http_app: Sending GET http://localhost:8080/time
+2026-10-26 12:06:28 [INFO] http_app: GET /time -> 200
+2026-10-26 12:08:48 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:08:48 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:24 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:24 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:25 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:25 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:25 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:25 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:25 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:25 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:26 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:26 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:10:26 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:10:26 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:35 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:35 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:36 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:36 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:54 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:54 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:55 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:55 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:55 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:55 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:56 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:56 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:56 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:56 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:56 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:56 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:57 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:57 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:58 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:58 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:59 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:59 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:12:59 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:12:59 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:13:00 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:13:00 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:13:00 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:13:00 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:13:00 [INFO] http_app: Sending POST http://localhost:8080/echo
+2026-10-26 12:13:00 [INFO] http_app: POST /echo -> 200
+2026-10-26 12:24:40 [INFO] http_app: Stopping server
+2026-10-26 12:24:40 [INFO] http_app: Server stopping
