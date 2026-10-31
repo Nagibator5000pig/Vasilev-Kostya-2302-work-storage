@@ -129,6 +129,7 @@ tests/
 requirements.txt
 Makefile
 README.md
+report.md
 ```
 
 ## Особенности реализации
